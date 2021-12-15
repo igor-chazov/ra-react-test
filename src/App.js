@@ -1,23 +1,23 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import Feedback from './components/Feedback';
+import FeedbackClassBased from './components/FeedbackClassBased';
+import FileChooser from './components/FileChooser';
+import FileChooserClassBased from './components/FileChooserClassBased';
+import FileChooserAdv from './components/FileChooserAdv';
+import ReadMe from './components/readme/ReadMe';
+import ReadMeMono from './components/readme/ReadMeMono';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Feedback />
+      <FeedbackClassBased />
+      <FileChooser />
+      <FileChooserClassBased />
+      <FileChooserAdv />
+      <ReadMeMono />
+      <ReadMe />
     </div>
   );
 }
