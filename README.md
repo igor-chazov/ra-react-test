@@ -1,5 +1,7 @@
 # Getting Started with Create React App
 
+[![Build status](https://ci.appveyor.com/api/projects/status/k5kutc5yirq3unel?svg=true)](https://ci.appveyor.com/project/igor-chazov/ra-react-test)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
